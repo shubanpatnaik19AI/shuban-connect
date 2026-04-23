@@ -121,6 +121,9 @@ function Index() {
       <section className="relative overflow-hidden border-b border-border">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--accent)_0%,_transparent_60%)]" />
         <div className="relative mx-auto max-w-7xl px-6 py-24 md:py-32">
+          <div className="absolute left-6 top-6 md:left-10 md:top-10">
+            <ThemeToggle />
+          </div>
           <div className="mx-auto max-w-3xl text-center">
             <div className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-3 py-1 text-xs font-medium text-muted-foreground">
               <Lock className="h-3 w-3" />
