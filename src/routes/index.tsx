@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowUpRight, Sparkles, Music, Code2, Map, Rocket, Video, Shield, Lock, Smartphone, Brain, User } from "lucide-react";
+import { ArrowUpRight, Sparkles, Music, Code2, Map, Rocket, Video, Lock, Smartphone, Brain, User } from "lucide-react";
 import { useAuth } from "@/lib/auth-context";
 import { ThemeToggle } from "@/components/theme-toggle";
 import shubanLogo from "@/assets/shuban-logo.png";
