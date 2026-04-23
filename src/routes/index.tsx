@@ -229,6 +229,15 @@ function Index() {
           <p>© {new Date().getFullYear()} Shuban Authentication. All rights reserved.</p>
           <p>Built as the front door to the Shuban universe.</p>
         </div>
+        <div className="mt-6 border-t border-border pt-6 text-center">
+          <p className="text-foreground">
+            Every website and app on this platform — and this platform itself — is created by{" "}
+            <span className="font-semibold">Shuban Patnaik</span>.
+          </p>
+          <p className="mt-1 text-xs text-muted-foreground">
+            Founder, designer and engineer of the entire Shuban universe.
+          </p>
+        </div>
       </footer>
     </div>
   );
