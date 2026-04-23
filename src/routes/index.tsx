@@ -82,14 +82,17 @@ function Index() {
             <a href="#apps" className="text-muted-foreground transition hover:text-foreground">
               Apps
             </a>
-            <a href="#install" className="text-muted-foreground transition hover:text-foreground">
+            <Link to="/connect" className="text-muted-foreground transition hover:text-foreground">
+              Connect device
+            </Link>
+            <Link to="/install" className="text-muted-foreground transition hover:text-foreground">
               Install
-            </a>
+            </Link>
             <Link
-              to="/install"
+              to="/connect"
               className="rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition hover:bg-primary/90"
             >
-              Get the app
+              Connect this device
             </Link>
           </nav>
         </div>
@@ -115,18 +118,24 @@ function Index() {
               learning, music, code, maps, research and media. All in one place.
             </p>
             <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-              <a
-                href="#apps"
+              <Link
+                to="/connect"
                 className="inline-flex items-center gap-2 rounded-md bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition hover:bg-primary/90"
               >
-                Explore apps <ArrowUpRight className="h-4 w-4" />
-              </a>
+                <Smartphone className="h-4 w-4" /> Connect this device
+              </Link>
               <Link
                 to="/install"
                 className="inline-flex items-center gap-2 rounded-md border border-border bg-background px-6 py-3 text-sm font-medium transition hover:bg-accent"
               >
-                Install on your device
+                Install as app
               </Link>
+              <a
+                href="#apps"
+                className="inline-flex items-center gap-2 rounded-md border border-transparent px-6 py-3 text-sm font-medium text-muted-foreground transition hover:text-foreground"
+              >
+                Explore apps <ArrowUpRight className="h-4 w-4" />
+              </a>
             </div>
           </div>
         </div>
